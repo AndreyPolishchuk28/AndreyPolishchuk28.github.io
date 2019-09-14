@@ -1,18 +1,3 @@
-// --------O U R    S E R V I C E S-----------JQUERY
-// $('.services-item-name').on('click', function () {
-//     $('.services-item-name').each(function (index) {
-//         if(this === event.target){
-//             $(event.target).addClass('active');
-//             $('.leptop-text').eq(index).addClass('leptop-text-active');
-//             $('.img-item').eq(index).addClass('img-item-active')
-//         }else{
-//             $(this).removeClass('active');
-//             $('.leptop-text').eq(index).removeClass('leptop-text-active');
-//             $('.img-item').eq(index).removeClass('img-item-active');
-//         }
-//     })
-// });
-
 // --------O U R    S E R V I C E S-----------JS
 let serviceTabs = document.querySelectorAll('.services-item-name');
 let imgItem = document.querySelectorAll('.img-item');
@@ -87,34 +72,6 @@ loadBtn.addEventListener('click', function () {
 });
 
 // --------F I L T E R------------------------JQUERY
-// $('.amazing-work-name').on('click', function () {
-//     $('.amazing-work-name').each(function () {
-//         if(this === event.target){
-//             $(event.target).addClass('amazing-work-name-active');
-//             $(event.target).data('name');
-//             $('.card').each(function (index, elem) {
-//                 if($(event.target).data('name') === $(elem).data('name')){
-//                     $(elem).show();
-//              }else if ($(event.target).data('name') === undefined ){
-//                     $(elem).show();
-//                 }
-//                 else{
-//                  $(elem).hide()
-//              }
-//             })
-//         }else{
-//             $(this).removeClass('amazing-work-name-active');
-//         }
-//     })
-// });
-
-// $('.add-img').hide();
-// $('.load-btn').on('click', function () {
-//    $('.add-img').show();
-//    $('.load-btn').remove();
-// });
-
-
 $('.user-small-photo').each(function (index) {
     $('.user-small-photo').eq(index).on('click', function () {
         $('.user-small-photo').removeClass('hold-top');
@@ -176,8 +133,6 @@ $('.arrows-left').on('click', function () {
 });
 
 $('.user-small-photo')[2].click();
-
-
 // let elem = document.querySelector('.gallery');
 
 // let msnry = new Masonry( elem, {
@@ -185,8 +140,6 @@ $('.user-small-photo')[2].click();
 //     columnWidth: 370,
 //     percentPosition: true
 // });
-
-
 msnry = new Masonry( '.gallery', {
     gutter: 10,
     // horizontalOrder: true,
