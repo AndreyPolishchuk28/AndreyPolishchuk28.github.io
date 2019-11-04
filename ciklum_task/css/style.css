@@ -1,11 +1,12 @@
 * {
   margin: 0; }
 
-form {
-  text-align: center; }
+
 
 .head-wrapper {
-  margin-top: 30px; }
+  margin-top: 30px;
+  text-align: center;
+}
 
 .wrapper-form {
   width: 100%;
