@@ -1,0 +1,869 @@
+
+    .navigation-block{
+    min-width: 320px;
+    margin: 0 auto;
+    background-color: #f5f5f5;
+}
+
+.navigation-panel{
+    background-color: #373c3f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.square{
+    width: 41px;
+    height: 35px;
+    background-color: #202529;
+    text-align: center;
+}
+
+.pizza-logo{
+    background-image: url("../img/navigation-logo copy@1X.png");
+    width: 104px;
+    height: 83px;
+    margin-right: 30px;
+    display: none;
+
+}
+
+.nav-item{
+    font-family: 'Lato', SansSerif;
+    font-weight: 400;
+    color: #fff;
+    font-size: 15px;
+    text-decoration: none;
+    margin-left: 30px;
+
+
+}
+
+.bars-icon{
+    font-size: 15px;
+    color: #fff;
+    padding: 10px 14px;
+}
+
+.close-btn{
+    font-size: 15px;
+    color: #fff;
+    display: none;
+}
+
+.fa-times{
+    display: none;
+}
+
+.navigation-text{
+    font-family: 'Lato', SansSerif;
+    font-weight: 400;
+    color: #f2f2f2;
+    font-size: 14px;
+    margin-left: 19px;
+}
+
+.logo-img{
+    background-image: url("../img/logo.png");
+    background-size: cover;
+}
+
+.wrapper-logo-text{
+    padding-top: 18px;
+    padding-left: 19px;
+}
+
+.logo-text{
+    font-family: 'Lato', SansSerif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #f2f2f2;
+}
+
+.logo-padding{
+    padding-bottom: 7px;
+}
+
+.site-link{
+    font-family: 'Lato', SansSerif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #a6d6e0;
+    padding-top: 8px;
+    padding-bottom: 97px;
+}
+
+.wrapper-offers{
+    margin-top: 3px;
+    display: flex;
+    flex-wrap: nowrap;
+    min-width: 320px;
+}
+
+.offers-pizza{
+    background-image: url("../img/offers-1.png");
+    background-position: 71% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    min-width: 249px;
+    /*width: 249px;*/
+    flex-grow: 1;
+
+}
+
+.offers-text{
+    font-family: 'Lato', SansSerif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.green-square{
+    background-color: #acd8ad;
+    min-width: 71px;
+    min-height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow{
+    width: 6px;
+    height: 6px;
+    transform: rotate(45deg);
+    border-top: 1px solid #fff;
+    border-right: 1px solid #fff;
+}
+
+.offers-ua{
+    background-image: url("../img/offers-2.png");
+    background-position: 9% 89%;
+}
+
+.offers-desert{
+    background-image: url("../img/offers-3.png");
+    background-position: 32% 18%;
+}
+
+.main-block{
+    min-width: 320px;
+    margin: 0 auto;
+    flex-grow: 1;
+}
+
+.subtitle-block{
+    background-color: #fff;
+    padding-top: 20px;
+}
+
+.neque-text{
+    font-family: 'Lato', SansSerif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #3F4043;
+    text-transform: uppercase;
+    padding-left: 7px;
+    letter-spacing: 1.2px;
+
+}
+
+.tortor-text{
+    font-family: 'Lato', SansSerif;
+    font-size: 10px;
+    font-weight: 400;
+    color: #CBCCCE;
+    padding-top: 4px;
+    padding-left: 10px;
+}
+
+.wrapper-title{
+    background-color: #3f4043;
+    margin-bottom: 13px;
+}
+
+.first-menu-block{
+    margin-top: 10px;
+    background-color: #fff;
+}
+
+.title-text{
+    font-family: 'Lato', SansSerif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #ACD8AD;
+    text-transform: uppercase;
+    padding: 9px 0 9px 18px;
+}
+
+.subtitle-wrapper{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.subtitle-text{
+    font-family: 'Lato', SansSerif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #4C4D50;
+    text-transform: uppercase;
+    /*padding-left: 17px;*/
+}
+
+.velit{
+    padding-left: 15px;
+}
+
+.circle-img{
+    background-image: url("../img/circle-img-small.png");
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 25px;
+    padding-right: 17px;
+}
+
+.first-menu-wrapper{
+    margin-top: 14px;
+    padding: 0 17px;
+    /*display: flex;*/
+    /*justify-content: space-between;*/
+}
+
+.item-name{
+    font-family: 'Lato', SansSerif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #3F4043;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    padding-top: 0.5px;
+}
+
+.item-description{
+    font-family: 'Lato', SansSerif;
+    font-size: 8px;
+    font-weight: 400;
+    color: #3F4043;
+    list-style: none;
+    padding: 7px 0;
+    word-spacing: 2.7px;
+    text-align: justify;
+    line-height: 1.4;
+}
+
+.glass-img{
+    background-image: url("../img/glass-img.png");
+    width: 13px;
+    height: 24px;
+    margin-right: 7px;
+    margin-top: 3px;
+}
+
+.dolor-text{
+    margin-top: 3px;
+    margin-bottom: 15px;
+}
+
+.wrapper-title2{
+    background-color: #acd8ad;
+    margin-top: 22px;
+
+}
+
+.pharetra-text{
+    margin-top: 9px;
+}
+
+.pharetra-block{
+    margin-bottom: 18px;
+}
+
+.augue-text{
+    padding-left: 17px;
+}
+
+.title-text2{
+    color: #fff;
+}
+
+.cup-img{
+    background-image: url("../img/cup-img.png");
+    width: 30px;
+    height: 21px;
+    background-repeat: no-repeat;
+    padding-left: 16px;
+}
+
+.beer-img{
+    background-image: url("../img/beer-img.png");
+    width: 21px;
+    height: 20px;
+    margin-right: 6px;
+}
+
+.footer-block{
+    background-color: #acd8ad;
+    min-width: 320px;
+    margin-top: 42px;
+    font-family: 'Lato', SansSerif;
+    font-size: 13.5px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    line-height: 1.3;
+}
+
+.pizza-text{
+    padding-top: 8px;
+}
+
+.new-text{
+    padding-bottom: 10px;
+}
+
+.wrapper-offers-980{
+    display: none;
+}
+
+.footer-text-980{
+    font-family: 'Lato', SansSerif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    display: none;
+}
+
+.wrapper-menu{
+    display: none;
+}
+
+.responsive-block{
+    width: 182px;
+    position: absolute;
+    top: 35px;
+    right: 0;
+    background-color: #fafafa;
+    list-style: none;
+    display: none;
+}
+
+.responsive-item{
+    font-family: 'Lato', SansSerif;
+    font-size: 12px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #757575;
+    /*padding-left: 12px;*/
+}
+
+.gogi{
+    padding-left: 5px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border: 1px solid #F0F0F0;
+}
+
+.gogi:hover{
+    background-color: #f5f5f5;
+}
+
+
+
+
+
+
+@media screen and (min-width: 640px){
+    .responsive-block{
+        min-width: 300px;
+        top: 74px;
+    }
+
+    .gogi{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .responsive-item{
+        font-size: 14px;
+    }
+
+
+    .navigation-panel{
+        min-height: 74px;
+    }
+
+    .logo-img{
+        min-height: 346px;
+    }
+
+    .navigation-text{
+        font-size: 24px;
+    }
+
+    .square{
+        width: 82px;
+        height: 74px;
+    }
+
+    .bars-icon{
+        font-size: 30px;
+        padding-top: 21px;
+    }
+
+    .logo-text{
+        font-size: 32px;
+    }
+
+    .wrapper-logo-text{
+        padding-left: 38px;
+        padding-top: 30px;
+    }
+
+    .site-link{
+        font-size: 24px;
+        padding-top: 22px;
+    }
+
+    .offers-pizza{
+        flex-grow: 2;
+        height: 150px;
+    }
+
+    .green-square{
+        height: 150px;
+        width: 142px;
+    }
+
+    .arrow{
+        width: 12px;
+        height: 12px;
+    }
+
+    .offers-text{
+        font-size: 36px;
+    }
+
+    .main-block{
+        flex-grow: 2;
+    }
+
+    .neque-text{
+        font-size: 38px;
+        padding-left: 20px;
+    }
+
+    .tortor-text{
+        padding-left: 20px;
+        font-size: 18px;
+        word-spacing: 1px;
+        padding-top: 9px;
+    }
+
+    .first-menu-block{
+        margin-top: 20px;
+    }
+
+    .title-text{
+        font-size: 40px;
+        padding: 18px 0 18px 37px;
+    }
+
+    .subtitle-text{
+        font-size: 26px;
+        padding-left: 38px;
+    }
+
+    .first-menu-wrapper{
+        padding: 0 38px;
+    }
+
+    .circle-img{
+        background-image: url("../img/circle-640.png");
+        width: 49px;
+        height: 48px;
+        padding-right: 38px;
+    }
+
+    .item-name{
+        font-size: 27px;
+    }
+
+    .item-description{
+        font-size: 17px;
+    }
+
+    .glass-img{
+        background-image: url("../img/glass-640.png");
+        width: 27px;
+        height: 48px;
+    }
+
+    .cup-img{
+        background-image: url("../img/cup-640.png");
+        width: 61px;
+        height: 42px;
+        padding-right: 38px;
+        background-repeat: no-repeat;
+    }
+
+    .beer-img{
+        background-image: url("../img/beer-640.png");
+        width: 43px;
+        height: 42px;
+    }
+
+    .footer-block{
+        font-size: 18px;
+        height: 97px;
+    }
+
+    .pizza-text{
+        padding-top: 25px;
+    }
+
+    .new-text{
+        padding-bottom: 25px;
+    }
+
+    .price{
+        font-size: 27px;
+    }
+
+    .id-text{
+        padding-left: 0;
+    }
+
+    .pharetra-text{
+        padding-left: 0;
+    }
+
+}
+
+
+@media screen and  (min-width: 980px){
+    .logo-text{
+        font-size: 54px;
+    }
+
+    .wrapper-logo-text{
+        padding-top: 64px;
+        padding-left: 30px;
+    }
+
+    .site-link{
+        padding-top: 57px;
+        font-size: 34px;
+    }
+
+    .logo-img{
+        min-height: 530px;
+    }
+
+    .wrapper-offers{
+        display: none;
+    }
+
+    .wrapper-offers-980{
+        display: flex;
+        flex-grow: 2;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .offers-pizza-980{
+        background-image: url("../img/offers-1.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        flex-grow: 1;
+        min-width: 327px;
+        min-height: 327px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        margin-top: 6px;
+    }
+
+    .wrapper-offers-salads980{
+        background-image: url("../img/offers-2.png");
+        min-width: 327px;
+        min-height: 327px;
+    }
+
+    .wrapper-offers-desert980{
+        background-image: url("../img/offers-3.png");
+        min-width: 327px;
+        min-height: 327px;
+    }
+
+    .offers-text{
+        font-size: 38px;
+    }
+
+    .menu-logo{
+        width: 109px;
+        height: 89px;
+        background-image: url("../img/Menu logo copy@1X.png");
+        margin-right: 30px;
+    }
+
+
+
+    .subtitle-block{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .neque-text{
+        padding-left: 30px;
+        font-size: 32px;
+    }
+
+    .tortor-text{
+        padding-left: 30px;
+        font-size: 13px;
+    }
+
+    .wrapper-menu-block{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .wrapper-title2{
+        margin-top: 0;
+    }
+
+    .title-text{
+        font-size: 22px;
+        padding: 18px 0 18px 17px;
+    }
+
+    .subtitle-text{
+        font-size: 16px;
+        padding-left: 19px;
+    }
+
+    .circle-img{
+        background-image: url("../img/circle-980.png");
+        width: 42px;
+        height: 42px;
+        padding-right: 14px;
+
+    }
+
+    .cup-img{
+        background-image: url("../img/cup-980.png");
+        width: 42px;
+        height: 42px;
+        padding-right: 29px;
+    }
+
+    .subtitle-wrapper{
+        margin-top: 10px;
+        margin-bottom: 35px;
+    }
+
+    .item-name{
+        font-size: 24px;
+        margin-bottom: 17px;
+    }
+
+    .item-description{
+        font-size: 14px;
+        line-height: 1.2;
+        word-spacing: 0;
+        padding-bottom: 28px;
+        padding-top: 0;
+    }
+
+    .price{
+        font-size: 24px;
+        font-weight: 700;
+    }
+
+    .first-menu-wrapper{
+        padding: 0 17px;
+    }
+
+    .wrapper-title{
+        margin-bottom: 30px;
+    }
+
+    .pharetra-text{
+        margin-top: 0;
+        padding-left: 0;
+    }
+
+    .id-text{
+        padding-left: 0;
+    }
+
+    .footer-block{
+        margin-top: 100px;
+    }
+
+    .footer-slogan{
+        background-image: url("../img/navigation-logo copy@1X.png");
+        width: 104px;
+        height: 83px;
+        margin-left: 30px;
+    }
+
+    .pizza-text{
+        display: none;
+    }
+
+    .new-text{
+        display: none;
+    }
+
+    .footer-block{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .footer-text-980{
+        display: block;
+        margin-right: 30px;
+    }
+
+    .navigation-panel{
+        /*min-width: 980px;*/
+        display: flex;
+        justify-content: space-between;
+        position: initial;
+    }
+
+    .navigation-text{
+        display: none;
+    }
+
+    .square{
+        display: none;
+    }
+
+    .pizza-logo{
+        display: block;
+        margin-top: 7px;
+        margin-bottom: 7px;
+
+    }
+
+    .responsive-block{
+        display: block;
+        width: initial;
+        height: initial;
+        background-color: unset;
+        list-style: none;
+        position: initial;
+    }
+
+    .gogi{
+        display: inline-block;
+        padding-top: 0;
+        padding-bottom: 0;
+        border: none;
+        padding-left: 30px;
+        font-size: 15px;
+    }
+
+    .responsive-item{
+        font-size: 15px;
+        text-transform: uppercase;
+        color: #fff;
+    }
+
+    .gogi:hover{
+        background-color: unset;
+    }
+
+    .wrapper-navbar{
+        display: flex;
+    }
+
+
+
+
+
+
+}
+
+
+@media screen and (min-width: 1200px){
+    .logo-text{
+        font-size: 62px;
+    }
+
+    .wrapper-logo-text{
+        padding-left: 37px;
+    }
+
+    .site-link{
+        font-size: 38px;
+    }
+
+    .logo-img{
+        min-height: 650px;
+    }
+
+    .offers-pizza-980{
+        height: 400px;
+    }
+
+    .offers-text{
+        font-size: 43px;
+    }
+
+    .menu-logo{
+        background-image: url("../img/Menu logo-1200.png");
+        width: 120px;
+        height: 98px;
+    }
+
+    .neque-text{
+        font-size: 40px;
+    }
+
+    .title-text{
+        padding: 23px 0 23px 17px;
+        font-size: 26px;
+    }
+
+    .subtitle-text{
+        font-size: 19px;
+    }
+
+    .item-name{
+        font-size: 27px;
+    }
+    .item-description{
+        font-size: 18px;
+        padding-bottom: 22px;
+    }
+
+    .price{
+        font-size: 27px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
